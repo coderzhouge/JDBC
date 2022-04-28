@@ -37,6 +37,7 @@ public class BlobMethod {
             String sql = String.format("insert into t_customers(name,email,birth,photo) values(?,?,?,?)");
             pst = conn.prepareStatement(sql);
 
+
             //获取用户输入的值
             Scanner scanner = new Scanner(System.in);
             System.out.print("请输入用户:");
